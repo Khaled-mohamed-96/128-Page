@@ -376,7 +376,8 @@ nav {
     background-size: cover;
     min-height: 130vh;
     position: relative;
-
+    background-position: center;
+    background-attachment: fixed;
     &::before {
         content: '';
         position: absolute;
@@ -563,6 +564,7 @@ nav {
     background-image: url(../media/imgs/book-table-img.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
